@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.home {
+  @apply bg-gray-100 text-center;
+}

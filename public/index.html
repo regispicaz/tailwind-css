@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-br" class="dark">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,20 +7,32 @@
   <title>Hello Tailwind </title>
   <link href="./css/tailwind.css" rel="stylesheet">
 </head>
-<body class="bg-gray-100">
+<body class="bg-principal-300 dark:bg-gray-800">
 
-  <div class="bg-blue-100">
+  <div class="container mx-auto px-4 py-8 text-principal-800 dark:text-principal-400">
+    
+    <h6 class="font-bold m-2">Componente Card</h6>
 
-    <h1 class="text-3xl font-bold underline bg-blue">
-      Hello world!
-    </h1>
+    <div class="bg-white rounded-lg shadow-md text-principal-800 dark:bg-principal-900 dark:text-principal-400 overflow-hidden">
+      
+      <div class="w-full bg-gray-100 p-4 border-b border-gray-100 dark:bg-principal-600 dark:text-principal-200">
 
-    <h1 class="text-xs text-green-500">Hello world!</h1>
-    <h1 class="text-sm text-orange-400">Hello world!</h1>
-    <h1 class="text-lg font-black">Hello world!</h1>
-    <h1 class="text-xl">Hello world!</h1>
+        <h4 class="font-bold">Topo</h4>
 
+      </div>
+      
+      <div class="p-4 text-justify">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam eaque delectus illo assumenda modi ex iusto laudantium, deserunt molestiae a vel nesciunt, id ut dicta. Ad aspernatur dolorem delectus laborum?
+      </div>
+
+      <div class="w-full bg-gray-50 p-4 border-t border-gray-100 dark:bg-principal-600 dark:text-principal-200 dark:border-principal-700">
+        Rodapé
+      </div> 
+
+    </div>
+    
   </div>
-  
+
+
 </body>
 </html>
